@@ -1,0 +1,120 @@
+سیاست حفظ حریم خصوصی برنامه «دراپ» (Drop)
+آخرین به‌روزرسانی: ۴ فروردین ۱۴۰۴ (۲۴ مارس ۲۰۲۵)
+
+ما در تیم Drop متعهد به حفاظت از حریم خصوصی شما هستیم. این سند توضیح می‌دهد چه اطلاعاتی جمع‌آوری می‌کنیم، چرا جمع‌آوری می‌کنیم و چگونه از آن‌ها استفاده می‌کنیم.
+
+۱. اطلاعاتی که جمع‌آوری می‌کنیم
+۱.۱ Android ID دستگاه
+
+صرفاً برای ایجاد حساب کاربری داخلی و همگام‌سازی پلی‌لیست‌ها و تنظیمات بین دستگاه‌های مختلف شما استفاده می‌شود.
+این شناسه به‌صورت هش‌شده ذخیره می‌شود و قابل شناسایی هویت نیست.
+۱.۲ دسترسی به فایل‌ها و تصاویر
+
+READ_MEDIA_AUDIO، READ_MEDIA_VIDEO، READ_MEDIA_IMAGES: برای پخش و مدیریت فایل‌های صوتی و تصویری
+دسترسی به تصاویر گالری: فقط برای انتخاب کاور توسط خود شما (با تأیید صریح شما)
+۱.۳ اطلاعات شبکه و اتصال
+
+INTERNET، ACCESS_NETWORK_STATE، ACCESS_WIFI_STATE: برای نمایش تبلیغات مستقیم، دریافت به‌روزرسانی و نصب تم‌ها
+۱.۴ داده‌های تحلیلی و رفع اشکال
+
+از Google Firebase Crashlytics و Analytics استفاده می‌کنیم
+شامل: مدل دستگاه، نسخه اندروید، نسخه برنامه، خطاهای رخ‌داده، مدت زمان استفاده (کاملاً ناشناس)
+۱.۵ هیچ داده‌ای از محتوای پلی‌لیست‌ها، تاریخچه پخش یا فایل‌های شما به سرور ارسال نمی‌شود.
+
+۲. اطلاعاتی که جمع‌آوری نمی‌کنیم
+
+نام، نام خانوادگی، ایمیل، شماره تلفن، موقعیت جغرافیایی دقیق
+هیچ فایلی از دستگاه شما آپلود نمی‌شود
+هیچ تاریخچه پخش یا لیست علاقه‌مندی‌ها ذخیره یا ارسال نمی‌شود
+۳. تبلیغات
+۳.۱ تبلیغات مستقیماً توسط تیم Drop و بدون واسطه نمایش داده می‌شوند.
+۳.۲ هیچ شبکه تبلیغاتی شخص ثالثی (مانند AdMob) استفاده نمی‌شود.
+
+۴. مجوزهای مورد استفاده و دلیل آن‌ها
+۴.۱ READ/WRITE_EXTERNAL_STORAGE و MANAGE_EXTERNAL_STORAGE → دسترسی به فایل‌های قدیمی‌تر اندروید
+۴.۲ READ_MEDIA_* → اندروید ۱۳ به بالا
+۴.۳ REQUEST_INSTALL_PACKAGES → نصب تم‌های APK
+۴.۴ QUERY_ALL_PACKAGES → شناسایی تم‌های نصب‌شده
+۴.۵ INTERNET و NETWORK → تبلیغات مستقیم و به‌روزرسانی
+۴.۶ POST_NOTIFICATIONS و FOREGROUND_SERVICE → پخش در پس‌زمینه
+۴.۷ SYSTEM_ALERT_WINDOW → پنجره شناور پخش
+
+۵. اشتراک‌گذاری اطلاعات
+اطلاعات شما با هیچ شخص یا شرکتی به اشتراک گذاشته نمی‌شود به جز:
+
+Google Firebase (فقط داده‌های ناشناس خطا و آمار استفاده)
+در صورت الزام قانونی یا دستور قضایی
+۶. امنیت اطلاعات
+
+تمام ارتباطات با سرور رمزنگاری‌شده (HTTPS/TLS) هستند
+Android ID به‌صورت هش‌شده و غیرقابل بازگشت ذخیره می‌شود
+۷. محدودیت سنی
+برنامه هیچ محدودیت سنی ندارد و برای تمام سنین مناسب است.
+
+۸. حقوق شما
+شما حق دارید در هر زمان برنامه را حذف کنید که منجر به حذف تمام داده‌های محلی مرتبط با حساب شما خواهد شد.
+
+۹. تغییرات در سیاست حفظ حریم خصوصی
+هرگونه تغییر مهم از طریق نوتیفیکیشن داخل برنامه یا صفحه به‌روزرسانی اطلاع‌رسانی خواهد شد.
+
+تماس با ما: Khodehydro@gmail.com
+
+
+----------------------
+
+Drop – Offline Music & Video Player
+Privacy Policy
+Last updated: March 24, 2025
+
+We at Drop Team are committed to protecting your privacy.
+
+Information We Collect
+1.1 Android ID
+Used solely as an anonymous internal identifier for syncing your playlists and settings across your own devices.
+Stored in hashed, non-reversible form.
+1.2 Access to Media Files & Images
+
+READ_MEDIA_AUDIO / VIDEO / IMAGES: Required to play your music/videos and allow you to choose custom cover art from your gallery (with your explicit permission).
+1.3 Network Information
+
+Required for displaying direct ads, checking for updates, and downloading themes.
+1.4 Analytics & Crash Reports
+
+We use Google Firebase Analytics and Crashlytics (completely anonymous).
+Collected data includes: device model, Android version, app version, crash logs, and general usage duration.
+1.5 We do NOT upload or store your playlists, playback history, or any media files.
+
+Information We Do NOT Collect
+Name, email address, phone number, precise location
+Any personal identifiable information
+Your media files or playback history
+Advertisements
+All ads are served directly by Drop Team. We do not use third-party advertising networks.
+
+Permissions Explained
+
+Storage & media permissions → Access your music, videos, and images
+REQUEST_INSTALL_PACKAGES & QUERY_ALL_PACKAGES → Install and detect separate theme APKs
+INTERNET → Direct ads and updates
+FOREGROUND_SERVICE & POST_NOTIFICATIONS → Background playback
+SYSTEM_ALERT_WINDOW → Floating playback window
+Data Sharing
+Your data is never shared with any third party except:
+Google Firebase (anonymous crash and analytics data only)
+When required by law or court order
+Data Security
+All communications are encrypted using HTTPS/TLS. The Android ID is hashed and cannot be reversed.
+
+Children’s Privacy & Age Restriction
+The App has no age restriction and is suitable for users of all ages.
+
+Your Rights
+You may uninstall the App at any time, which deletes all local data associated with your anonymous account.
+
+Changes to This Privacy Policy
+Material changes will be notified via in-app notice or update screen.
+
+Contact us: Khodehydro@gmail.com
+
+
+
